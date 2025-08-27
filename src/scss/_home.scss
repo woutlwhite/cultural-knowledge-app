@@ -1,0 +1,45 @@
+.fullpage.home {
+    background-image: url(../images/home_screen.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .home {
+        &-overlay {
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            position: fixed;
+            z-index: 1;
+            transition: background-color 0.1s ease;
+        }
+
+        &-container {
+            z-index: 2;
+            position: relative;
+        }
+
+        &-title {
+            margin: 0;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fef9ec;
+            font-size: 52px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &-info-text {
+            max-width: 700px;
+            margin: 0 auto 80px;
+            display: flex;
+            width: 70%;
+            text-align: center;
+            color: #fef9ec;
+            font-size: 28px;
+            font-weight: 500;
+        }
+    }
+}

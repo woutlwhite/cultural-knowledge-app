@@ -1,0 +1,16 @@
+@use "scss/fonts";
+@use "scss/home";
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+}
+
+.fullpage {
+  width: 100vw;
+  overflow-y: auto;
+}
