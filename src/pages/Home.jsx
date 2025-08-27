@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ScrollHintArrow } from '../components/ScrollHintArrow';
+import { CountryLink } from '../components/CountryLink';
 
 export default function Home() {
 
@@ -40,6 +41,18 @@ export default function Home() {
                 </p>
 
                 <ScrollHintArrow />
+            </div>
+
+            <div className="countries-container">
+                <CountryLink countryCode="at" countryName="Austria" />
+                <CountryLink countryCode="sk" countryName="Slovakia" />
+                <CountryLink countryCode="hu" countryName="Hungary" />
+                <CountryLink countryCode="si" countryName="Slovenia" />
+                <CountryLink countryCode="it" countryName="Italy" />
+                <CountryLink countryCode="ch" countryName="Switzerland" />
+                <CountryLink countryCode="li" countryName="Liechtenstein" />
+                <CountryLink countryCode="de" countryName="Germany" />
+                <CountryLink countryCode="cz" countryName="Czech Republic" />
             </div>
         </div>
     )

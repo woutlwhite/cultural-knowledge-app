@@ -1,5 +1,7 @@
 @use "scss/fonts";
+@use "scss/variables";
 @use "scss/home";
+@use "scss/countries";
 
 body {
   margin: 0;
@@ -11,6 +13,7 @@ body {
 }
 
 .fullpage {
-  width: 100vw;
-  overflow-y: auto;
+    width: calc(100vw - 32px);
+    overflow-y: auto;
+    padding: 0 16px;
 }
