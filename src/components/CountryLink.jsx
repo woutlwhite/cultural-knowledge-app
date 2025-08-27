@@ -1,11 +1,16 @@
 import "flag-icons/css/flag-icons.min.css";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const CountryLink = ({countryCode, countryName }) => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("countries/" + countryCode, { state: { code: countryCode, name: countryName } });
+    };
+
     return (
-        <Link to={`countries/${countryCode}`} className="country-link-container">
+        <div onClick={handleClick} className="country-link-container">
             <span className={`fi fi-${countryCode} country-icon`}></span>
             <h2 className="country-title">{countryName}</h2>
-        </Link>
+        </div>
     )
 }

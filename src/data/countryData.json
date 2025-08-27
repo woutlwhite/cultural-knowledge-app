@@ -1,0 +1,92 @@
+[
+  {
+    "code": "at",
+    "name": "Austria",
+    "population": 9.0,
+    "area": 83879,
+    "traditions": "Austria is famous for classical music traditions and alpine customs. People celebrate with folk dances, traditional dress (lederhosen and dirndl), and winter festivals.",
+    "traditionExamples": ["Vienna Opera Ball", "Krampuslauf", "Alpine yodeling"],
+    "food": "Austrian cuisine blends German, Hungarian, and Italian influences with rich pastries and hearty dishes.",
+    "foodExamples": ["Wiener Schnitzel", "Sachertorte", "Apfelstrudel"]
+  },
+  {
+    "code": "cz",
+    "name": "Czech Republic",
+    "population": 10.7,
+    "area": 78866,
+    "traditions": "The Czech Republic is known for its medieval festivals, Christmas markets, and beer culture. Folk music and costumes remain part of rural celebrations.",
+    "traditionExamples": ["Easter whip tradition", "Prague Christmas Market", "Beer festivals"],
+    "food": "Czech food is hearty, often centered around meat, potatoes, and dumplings.",
+    "foodExamples": ["Svíčková", "Trdelník", "Pilsner beer"]
+  },
+  {
+    "code": "de",
+    "name": "Germany",
+    "population": 83.2,
+    "area": 357022,
+    "traditions": "Germany celebrates Oktoberfest, Christmas markets, and strong regional folk traditions like Bavarian dress and Rhine carnival.",
+    "traditionExamples": ["Oktoberfest", "Karneval", "Christmas markets"],
+    "food": "German cuisine is diverse, with bread, sausages, and regional specialties.",
+    "foodExamples": ["Bratwurst", "Pretzel", "Sauerbraten"]
+  },
+  {
+    "code": "hu",
+    "name": "Hungary",
+    "population": 9.6,
+    "area": 93028,
+    "traditions": "Hungary has strong folk dance and music traditions, with colorful costumes and lively festivals.",
+    "traditionExamples": ["Busójárás carnival", "Folk dance festivals", "Saint Stephen’s Day"],
+    "food": "Hungarian food is spicy and rich, with paprika as a staple ingredient.",
+    "foodExamples": ["Goulash", "Lángos", "Chicken paprikash"]
+  },
+  {
+    "code": "it",
+    "name": "Italy",
+    "population": 59.5,
+    "area": 301340,
+    "traditions": "Italy is deeply rooted in Catholic traditions, art, and festivals. Local festas, operas, and carnivals are widely celebrated.",
+    "traditionExamples": ["Venice Carnival", "Palio di Siena", "Religious processions"],
+    "food": "Italian cuisine is world-famous for pasta, pizza, and regional diversity.",
+    "foodExamples": ["Pizza Napoletana", "Spaghetti Carbonara", "Tiramisu"]
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "population": 0.039,
+    "area": 160,
+    "traditions": "Liechtenstein preserves alpine traditions, national day celebrations, and strong community-oriented customs.",
+    "traditionExamples": ["National Day on August 15", "Alpine festivals", "Schützenfest"],
+    "food": "Liechtenstein’s food is influenced by Swiss, Austrian, and German cuisine.",
+    "foodExamples": ["Käsknöpfle", "Rösti", "Cheese fondue"]
+  },
+  {
+    "code": "sk",
+    "name": "Slovakia",
+    "population": 5.4,
+    "area": 49035,
+    "traditions": "Slovakia has a strong folk culture with wooden crafts, Easter traditions, and vibrant music and dance.",
+    "traditionExamples": ["Easter water pouring", "Harvest festivals", "Fujara music"],
+    "food": "Slovak food is rustic, often based on potatoes, sheep cheese, and cabbage.",
+    "foodExamples": ["Bryndzové halušky", "Kapustnica", "Lokše"]
+  },
+  {
+    "code": "si",
+    "name": "Slovenia",
+    "population": 2.1,
+    "area": 20273,
+    "traditions": "Slovenia celebrates folk festivals, Carnival (Kurentovanje), and alpine village traditions.",
+    "traditionExamples": ["Kurentovanje carnival", "Harvest festivals", "St. Martin’s Day wine festival"],
+    "food": "Slovenian cuisine blends Mediterranean and Central European influences.",
+    "foodExamples": ["Potica", "Idrija žlikrofi", "Štruklji"]
+  },
+  {
+    "code": "ch",
+    "name": "Switzerland",
+    "population": 8.9,
+    "area": 41285,
+    "traditions": "Switzerland is known for alpine traditions, yodeling, and seasonal festivals.",
+    "traditionExamples": ["Alpabzug (cattle descent)", "Fasnacht carnival", "Sechseläuten in Zurich"],
+    "food": "Swiss food is famous for cheese and chocolate, with hearty alpine meals.",
+    "foodExamples": ["Fondue", "Raclette", "Rösti"]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "code": "at",
+    "name": "Österreich",
+    "population": 9.0,
+    "area": 83879,
+    "traditions": "Österreich ist bekannt für klassische Musiktraditionen und alpenländische Bräuche. Man feiert mit Volkstänzen, Tracht (Lederhosen und Dirndl) und Winterfesten.",
+    "traditionExamples": ["Wiener Opernball", "Krampuslauf", "Alpenjodeln"],
+    "food": "Die österreichische Küche vereint deutsche, ungarische und italienische Einflüsse mit reichhaltigen Mehlspeisen und herzhaften Gerichten.",
+    "foodExamples": ["Wiener Schnitzel", "Sachertorte", "Apfelstrudel"]
+  },
+  {
+    "code": "cz",
+    "name": "Tschechien",
+    "population": 10.7,
+    "area": 78866,
+    "traditions": "Tschechien ist bekannt für mittelalterliche Feste, Weihnachtsmärkte und seine Bierkultur. Volksmusik und Trachten sind besonders auf dem Land noch lebendig.",
+    "traditionExamples": ["Osterpeitschen-Tradition", "Prager Weihnachtsmarkt", "Bierfeste"],
+    "food": "Die tschechische Küche ist deftig und basiert oft auf Fleisch, Kartoffeln und Knödeln.",
+    "foodExamples": ["Svíčková", "Trdelník", "Pilsner Bier"]
+  },
+  {
+    "code": "de",
+    "name": "Deutschland",
+    "population": 83.2,
+    "area": 357022,
+    "traditions": "Deutschland feiert das Oktoberfest, Weihnachtsmärkte und regionale Volksbräuche wie bayerische Trachten oder den rheinischen Karneval.",
+    "traditionExamples": ["Oktoberfest", "Karneval", "Weihnachtsmärkte"],
+    "food": "Die deutsche Küche ist vielfältig, geprägt von Brotsorten, Würsten und regionalen Spezialitäten.",
+    "foodExamples": ["Bratwurst", "Brezel", "Sauerbraten"]
+  },
+  {
+    "code": "hu",
+    "name": "Ungarn",
+    "population": 9.6,
+    "area": 93028,
+    "traditions": "Ungarn hat eine lebendige Volksmusik- und Tanztradition mit bunten Kostümen und fröhlichen Festen.",
+    "traditionExamples": ["Busójárás-Karneval", "Volkstanzfeste", "Stephanstag"],
+    "food": "Die ungarische Küche ist würzig und reichhaltig, Paprika ist das zentrale Gewürz.",
+    "foodExamples": ["Gulasch", "Lángos", "Paprikahuhn"]
+  },
+  {
+    "code": "it",
+    "name": "Italien",
+    "population": 59.5,
+    "area": 301340,
+    "traditions": "Italien ist stark von katholischen Traditionen, Kunst und Festen geprägt. Lokale Feste, Opern und Karnevalsfeiern sind weit verbreitet.",
+    "traditionExamples": ["Karneval von Venedig", "Palio di Siena", "Religiöse Prozessionen"],
+    "food": "Die italienische Küche ist weltweit berühmt für Pasta, Pizza und ihre regionale Vielfalt.",
+    "foodExamples": ["Pizza Napoletana", "Spaghetti Carbonara", "Tiramisu"]
+  },
+  {
+    "code": "li",
+    "name": "Liechtenstein",
+    "population": 0.039,
+    "area": 160,
+    "traditions": "Liechtenstein bewahrt alpenländische Bräuche, den Nationalfeiertag und eine stark gemeinschaftsorientierte Kultur.",
+    "traditionExamples": ["Nationalfeiertag am 15. August", "Alpenfeste", "Schützenfest"],
+    "food": "Die liechtensteinische Küche ist stark von der Schweiz, Österreich und Deutschland beeinflusst.",
+    "foodExamples": ["Käsknöpfle", "Rösti", "Käsefondue"]
+  },
+  {
+    "code": "sk",
+    "name": "Slowakei",
+    "population": 5.4,
+    "area": 49035,
+    "traditions": "Die Slowakei hat eine ausgeprägte Volkskultur mit Holzhandwerk, Ostertraditionen und lebendiger Musik- und Tanzkultur.",
+    "traditionExamples": ["Osterwasser-Gießen", "Erntefeste", "Fujara-Musik"],
+    "food": "Die slowakische Küche ist rustikal, oft auf Kartoffeln, Schafskäse und Kohl basierend.",
+    "foodExamples": ["Bryndzové Halušky", "Kapustnica", "Lokše"]
+  },
+  {
+    "code": "si",
+    "name": "Slowenien",
+    "population": 2.1,
+    "area": 20273,
+    "traditions": "Slowenien feiert Volksfeste, den Karneval (Kurentovanje) und alpenländische Dorffeste.",
+    "traditionExamples": ["Kurentovanje-Karneval", "Erntefeste", "Martinstag-Weinfest"],
+    "food": "Die slowenische Küche verbindet mediterrane und mitteleuropäische Einflüsse.",
+    "foodExamples": ["Potica", "Idrija Žlikrofi", "Štruklji"]
+  },
+  {
+    "code": "ch",
+    "name": "Schweiz",
+    "population": 8.9,
+    "area": 41285,
+    "traditions": "Die Schweiz ist bekannt für alpenländische Traditionen, Jodeln und saisonale Feste.",
+    "traditionExamples": ["Alpabzug", "Fasnacht", "Sechseläuten in Zürich"],
+    "food": "Die Schweizer Küche ist berühmt für Käse und Schokolade sowie herzhafte Alpenkost.",
+    "foodExamples": ["Fondue", "Raclette", "Rösti"]
+  }
+]
