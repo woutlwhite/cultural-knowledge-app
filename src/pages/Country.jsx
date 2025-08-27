@@ -1,11 +1,17 @@
 import { useLocation, Link } from "react-router-dom";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 export default function Country() {
     const location = useLocation();
     const { code, name } = location.state || {};
+    const { t } = useTranslation();
+    
+    const language = localStorage.getItem('i18nextLng') || 'en';
+    console.log(language);
 
-    var data = require('../data/countryData.json');
+    var data = (language === 'en') ? require('../data/countryData_en.json') : require('../data/countryData_de.json');
     const country = data.find((c) => c.code === code);
     console.log(country);
 
@@ -20,10 +26,10 @@ export default function Country() {
             </header>
             <div className="country-section country-data">
                 <div className="country-data__area">
-                    <b>Area:</b> {country.area} km²
+                    <b>{t('area')}:</b> {country.area} km²
                 </div>
                 <div className="country-data__population">
-                    <b>Population:</b> {country.area} Mio.
+                    <b>{t('population')}:</b> {country.population} Mio.
                 </div>
             </div>
             <div className="country-section country-traditions">
@@ -31,7 +37,7 @@ export default function Country() {
                     {country.traditions}
                 </div>
                 <div className="examples">
-                    <b>Tradition examples:</b> {country.traditionExamples.join(", ")}
+                    <b>{t('traditionExamples')}:</b> {country.traditionExamples.join(", ")}
                 </div>
             </div>
             <div className="country-section country-food">
@@ -39,7 +45,7 @@ export default function Country() {
                     {country.food}
                 </div>
                 <div className="examples">
-                    <b>Cuisine examples:</b> {country.foodExamples.join(", ")}
+                    <b>{t('foodExamples')}:</b> {country.foodExamples.join(", ")}
                 </div>
             </div>
         </div>

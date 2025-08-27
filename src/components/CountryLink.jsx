@@ -8,7 +8,7 @@ export const CountryLink = ({countryCode, countryName }) => {
     };
 
     return (
-        <div onClick={handleClick} className="country-link-container">
+        <div onClick={() => handleClick()} className="country-link-container">
             <span className={`fi fi-${countryCode} country-icon`}></span>
             <h2 className="country-title">{countryName}</h2>
         </div>

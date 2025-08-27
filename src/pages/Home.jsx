@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { ScrollHintArrow } from '../components/ScrollHintArrow';
 import { CountryLink } from '../components/CountryLink';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
-
+    const { t } = useTranslation();
     const [opacity, setOpacity] = useState(0);
 
     useEffect(() => {
@@ -34,10 +35,9 @@ export default function Home() {
 
             {/* Container with content */}
             <div className="home-container">
-                <h1 className="home-title">Cultural Knowledge</h1>
+                <h1 className="home-title">{t('homeTitle')}</h1>
                 <p className="home-info-text">
-                    Entdecke Länder aus aller Welt – mit spannenden Fakten, Bildern und kulturellen Highlights.
-                    Klicke einfach auf eine Länder-Kachel und erfahre auf der Detailseite alles Wissenswerte über dieses Reiseziel.
+                    {t('homeText')}
                 </p>
 
                 <ScrollHintArrow />
