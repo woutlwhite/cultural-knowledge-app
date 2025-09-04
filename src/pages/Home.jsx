@@ -44,15 +44,15 @@ export default function Home() {
             </div>
 
             <div className="countries-container">
-                <CountryLink countryCode="at" countryName="Austria" />
-                <CountryLink countryCode="sk" countryName="Slovakia" />
-                <CountryLink countryCode="hu" countryName="Hungary" />
-                <CountryLink countryCode="si" countryName="Slovenia" />
-                <CountryLink countryCode="it" countryName="Italy" />
-                <CountryLink countryCode="ch" countryName="Switzerland" />
-                <CountryLink countryCode="li" countryName="Liechtenstein" />
-                <CountryLink countryCode="de" countryName="Germany" />
-                <CountryLink countryCode="cz" countryName="Czech Republic" />
+                <CountryLink countryCode="at" countryName={t('austria')} />
+                <CountryLink countryCode="sk" countryName={t('slovakia')} />
+                <CountryLink countryCode="hu" countryName={t('hungary')} />
+                <CountryLink countryCode="si" countryName={t('slovenia')} />
+                <CountryLink countryCode="it" countryName={t('italy')} />
+                <CountryLink countryCode="ch" countryName={t('switzerland')} />
+                <CountryLink countryCode="li" countryName={t('liechtenstein')} />
+                <CountryLink countryCode="de" countryName={t('germany')} />
+                <CountryLink countryCode="cz" countryName={t('czechRepublic')} />
             </div>
         </div>
     )
