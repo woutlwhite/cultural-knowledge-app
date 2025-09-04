@@ -25,6 +25,11 @@ body {
         flex-grow: 1;
         margin-left: 200px;
         min-height: calc(100vh - 100px);
+
+        @media only screen and (max-width: 1023px) {
+            margin-left: 0;
+            width: 100vw;
+        }
     }
 }
 
