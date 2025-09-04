@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { ScrollHintArrow } from '../components/ScrollHintArrow';
 import { CountryLink } from '../components/CountryLink';
 import { useTranslation } from 'react-i18next';
+import { MobileNav } from '../components/MobileNav';
 
 export default function Home() {
     const { t } = useTranslation();
@@ -30,6 +31,9 @@ export default function Home() {
 
     return (
         <div className="fullpage home">
+            <header>
+                <MobileNav />
+            </header>
             {/* Overlay used for darker background when scrolling */}
             <div style={styles.overlay} className="home-overlay"></div>
 

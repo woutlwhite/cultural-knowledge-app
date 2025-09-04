@@ -1,7 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import { useTranslation } from "react-i18next";
-import { useEffect } from "react";
+import { MobileNav } from "../components/MobileNav";
 
 export default function Country() {
     const location = useLocation();
@@ -18,7 +18,8 @@ export default function Country() {
     return (
         <div className="fullpage country">
             <header>
-                <Link to="/">
+                <MobileNav />
+                <Link className="back-link" to="/">
                     <ArrowBackIcon />
                 </Link>
                 <h1 className="country-name">{name}</h1>

@@ -13,7 +13,6 @@ function App() {
     return (
         <Router>
             <DesktopNav />
-            <MobileNav />
             <main>
                 <Routes>
                     <Route path="/" element={<Home />} />

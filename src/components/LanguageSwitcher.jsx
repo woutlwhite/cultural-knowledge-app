@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
@@ -7,10 +7,10 @@ export const LanguageSwitcher = () => {
         localStorage.getItem("i18nextLng") || "en"
     );
 
-    const changeLanguage = (lang) => {
-        i18n.changeLanguage(lang);
-        setLanguage(lang);
-        localStorage.setItem("i18nextLng", lang);
+    const changeLanguage = (l) => {
+        setLanguage(l);
+        i18n.changeLanguage(l);
+        localStorage.setItem("i18nextLng", l);
     };
 
     return (
@@ -18,12 +18,12 @@ export const LanguageSwitcher = () => {
             {language === "en" ? (
                 <span
                     onClick={() => changeLanguage("de")}
-                    className={`fi fi-gb country-icon`}
+                    className={`fi fi-de country-icon`}
                     ></span>
             ) : (
                 <span
                     onClick={() => changeLanguage("en")}
-                    className={`fi fi-de country-icon`}
+                    className={`fi fi-gb country-icon`}
                 ></span>
             )}
         </>

@@ -26,9 +26,9 @@ export const MobileNav = () => {
                 <div className={`mobile-navigation ${animate ? "expanded" : ""}`} id="mobileNavigation">
                     <div className="mobile-navigation-overlay" onClick={() => setMenuOpen(!menuOpen)}></div>
                     <nav>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/">{t("home")}</NavLink>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/about-us">{t("aboutUs")}</NavLink>
-                        <NavLink className={({ isActive }) => isActive ? "active" : ""} to="/contact">{t("contact")}</NavLink>
+                        <NavLink onClick={() => setMenuOpen(!menuOpen)} className={({ isActive }) => isActive ? "active" : ""} to="/">{t("home")}</NavLink>
+                        <NavLink onClick={() => setMenuOpen(!menuOpen)} className={({ isActive }) => isActive ? "active" : ""} to="/about-us">{t("aboutUs")}</NavLink>
+                        <NavLink onClick={() => setMenuOpen(!menuOpen)} className={({ isActive }) => isActive ? "active" : ""} to="/contact">{t("contact")}</NavLink>
                     </nav>
                     <LanguageSwitcher />
                     <span id="closeMenu" className="close-menu" onClick={() => setMenuOpen(!menuOpen)}>

@@ -14,14 +14,44 @@
         background-color: #dee6e8;
 
         > * {
-            height: 50px;
             margin: 0;
             display: flex;
             align-items: center;
         }
 
+        .open-menu {
+            display: none;
+        }
+
         .country-name {
             font-size: 24px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+        }
+
+        @media only screen and (max-width: 1023px) {
+            align-items: center;
+            padding: 10px 16px;
+
+            > * {
+                margin: initial;
+                display: initial;
+                align-items: initial;
+            }
+
+            .open-menu {
+                display: flex;
+            }
+
+            .country-icon {
+                height: 40px;
+                width: 40px;
+            }
+
+            .back-link {
+                visibility: hidden;
+            }
         }
     }
 
@@ -36,6 +66,6 @@
     }
 
     .country-data {
-        margin-top: 72px;
+        margin-top: 16px;
     }
 }
